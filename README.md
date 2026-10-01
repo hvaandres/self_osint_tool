@@ -14,6 +14,14 @@ This tool was created to utilize a couple OSINT tools and combine them into an a
 
  Google dorks and data brokers are listed as manual follow-ups; scraping
  search engines and broker sites trips CAPTCHAs and violates their ToS.
+
+ Usage: python3 self_osin.py [OPTIONS]
+ Options:
+ --name: an actual name like "John Doe"
+ -u: a username handle
+ -e: an email
+ -i: a picture (jpeg, png)
+ --spiderfoot: utilize spiderfoots tool scan (must have it installed and running on localhost)
  
 Example:
     python3 self_osint.py --name "First Last" -u handle1 -u oldhandle \
